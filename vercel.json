@@ -1,0 +1,13 @@
+json 
+
+{
+  "version": 2,
+  "builds": [
+    { "src": "app/frames/*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/frames/?", "dest": "app/frames/route.js" },
+    { "src": "/frames/tokens/?", "dest": "app/frames/tokens.js" },
+    { "src": "/frames/nfts/?", "dest": "app/frames/nfts.js" }
+  ]
+}
