@@ -1,0 +1,14 @@
+json
+
+{
+  "name": "my-farcaster-frame",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo \"no build\"",
+    "start": "node app/frames/route.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
