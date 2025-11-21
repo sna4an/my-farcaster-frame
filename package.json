@@ -6,7 +6,7 @@ json
   "private": true,
   "scripts": {
     "build": "echo \"no build\"",
-    "start": "node app/frames/route.js"
+    "start": "node api/frames/route.js"
   },
   "dependencies": {
     "node-fetch": "^2.6.7"
