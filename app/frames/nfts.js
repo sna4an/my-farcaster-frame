@@ -1,5 +1,3 @@
-Js
-
 module.exports = (req, res) => {
   const wallet = req.query.wallet || "";
   res.status(200).json({
